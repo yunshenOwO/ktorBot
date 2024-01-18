@@ -6,7 +6,7 @@ import com.yunshen.entity.Message
 import com.yunshen.event.MessageEvent
 
 @BotPlugin
-class GPT:MessageEvent {
+class SignIn:MessageEvent {
     override suspend fun sendMessage(json: QMessage): Boolean {
         if (json.post_type == "message"&& json.message == "签到"){
             Message.sign(json.group_id)

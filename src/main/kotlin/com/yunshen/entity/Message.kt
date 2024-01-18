@@ -18,7 +18,9 @@ object Message {
                     .params("group_id", groupId)
                     .params("message", message)
                     .build()
-                client.get(url)
+                client.use {
+                    it.get(url)
+                }
             }
         }
         println("发送成功: " +response.await().content)
@@ -31,9 +33,27 @@ object Message {
                 val url = UrlBuilder().endpoint(QQEndpoints.SEND_GROUP_SIGN)
                     .params("group_id", groupId)
                     .build()
-                client.get(url)
+                client.use {
+                    it.get(url)
+                }
             }
         }
         result.await()
+    }
+
+    @Suppress("unused")
+    @OptIn(InternalAPI::class)
+    suspend fun friendList():String{
+        val client = HttpClient()
+        val result = coroutineScope {
+            async {
+                val url  = UrlBuilder().endpoint(QQEndpoints.GET_FRIEND_LIST)
+                    .build()
+                client.use {
+                    it.get(url)
+                }
+            }
+        }
+        return result.await().content.toString()
     }
 }

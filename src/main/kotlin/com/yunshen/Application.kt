@@ -1,5 +1,6 @@
 package com.yunshen
 
+import com.yunshen.entity.BotInfo
 import com.yunshen.plugins.RobotLogger.logger
 import com.yunshen.plugins.configureRouting
 import com.yunshen.plugins.configureSecurity
@@ -9,6 +10,7 @@ import io.ktor.server.engine.*
 import io.ktor.server.tomcat.*
 
 
+@BotInfo("1.0.1")
 fun main() {
     logger.info("启动成功")
     embeddedServer(Tomcat, port = 5701, module = Application::module)
