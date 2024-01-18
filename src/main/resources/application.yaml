@@ -1,0 +1,7 @@
+ktor:
+  deployment:
+    host: 127.0.0.1
+    port: "$PORT:5701"
+  application:
+    modules:
+      - com.yunshen.ApplicationKt.module
