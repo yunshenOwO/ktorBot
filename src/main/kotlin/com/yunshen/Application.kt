@@ -11,7 +11,7 @@ import io.ktor.server.tomcat.*
 
 
 @BotInfo("1.0.1")
-fun main() {
+suspend fun main() {
     logger.info("启动成功")
     embeddedServer(Tomcat, port = 5701, module = Application::module)
         .start(wait = true)

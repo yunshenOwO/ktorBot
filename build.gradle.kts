@@ -35,4 +35,5 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
     implementation("org.slf4j:slf4j-api:1.7.32")
     implementation("ch.qos.logback:logback-classic:1.2.6")
+    api("net.mamoe", "mirai-core", "2.15.0")
 }

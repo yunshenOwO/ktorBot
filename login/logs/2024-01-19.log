@@ -1,0 +1,19 @@
+[2024-01-19 00:11:16] [WARNING]: 自动注册实例已关闭，请配置 sign-server 端自动注册实例以保持正常签名 
+[2024-01-19 00:11:25] [WARNING]: Protocol -> device lock is disabled. HTTP API may fail. 
+[2024-01-19 00:11:39] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2024-01-19 22:32:19] [WARNING]: 自动注册实例已关闭，请配置 sign-server 端自动注册实例以保持正常签名 
+[2024-01-19 22:32:34] [WARNING]: Protocol -> device lock is disabled. HTTP API may fail. 
+[2024-01-19 22:32:55] [ERROR]: Protocol -> test long message server response latency error: Get "https://ssl.htdata.qq.com": EOF 
+[2024-01-19 22:32:55] [ERROR]: 错误: 长消息服务器响应延迟测试失败, 可能导致无法接收/发送长消息的情况, 请检查本地网络状态. 如果您使用的腾讯云服务器, 请修改DNS到114.114.114.114 
+[2024-01-19 22:34:17] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2024-01-19 22:34:21] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2024-01-19 22:34:24] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2024-01-19 22:34:46] [WARNING]: nil sign-server 
+[2024-01-19 22:39:27] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2024-01-19 22:41:17] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2024-01-19 22:42:15] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": EOF 将进行第 1 次重试 
+[2024-01-19 22:42:19] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2024-01-19 22:43:00] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": EOF 将进行第 1 次重试 
+[2024-01-19 22:43:04] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2024-01-19 22:44:10] [WARNING]: 群 784469488 发送消息失败: 账号可能被风控. 
+[2024-01-19 22:44:22] [WARNING]: 群 784469488 发送消息失败: 账号可能被风控. 

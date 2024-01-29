@@ -10,6 +10,7 @@ class SignIn:MessageEvent {
     override suspend fun sendMessage(json: QMessage): Boolean {
         if (json.post_type == "message"&& json.message == "签到"){
             Message.sign(json.group_id)
+            Message.sendGroupMessage(json.group_id, "签到成功")
         }
         return true
     }
